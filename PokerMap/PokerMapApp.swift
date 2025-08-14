@@ -25,7 +25,7 @@ struct PokerMapApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameHomeView()
         }
         .modelContainer(sharedModelContainer)
     }
